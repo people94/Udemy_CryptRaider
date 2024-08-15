@@ -1,1 +1,7 @@
 Content/MedievalDungeon filter=lfs diff=lfs merge=lfs -text
+Content/MedievalDungeon/Particles filter=lfs diff=lfs merge=lfs -text
+Content/MedievalDungeon/Textures filter=lfs diff=lfs merge=lfs -text
+Content/MedievalDungeon/Blueprints filter=lfs diff=lfs merge=lfs -text
+Content/MedievalDungeon/Maps filter=lfs diff=lfs merge=lfs -text
+Content/MedievalDungeon/Materials filter=lfs diff=lfs merge=lfs -text
+Content/MedievalDungeon/Meshes filter=lfs diff=lfs merge=lfs -text
