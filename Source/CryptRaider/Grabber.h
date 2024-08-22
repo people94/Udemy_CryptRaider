@@ -24,6 +24,14 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
+	UFUNCTION(BlueprintCallable)
+	void Grab();
+
+	UFUNCTION(BlueprintCallable)
+	void Release();
+
+	class UPhysicsHandleComponent* GetPhysicsHandle();
+
 private:
 	UPROPERTY(EditAnywhere)
 	float MaxGarbDistance = 400.0f;
@@ -31,4 +39,6 @@ private:
 	UPROPERTY(EditAnywhere)
 	float GrabRadius = 100.0f;
 
+	UPROPERTY(EditAnywhere)
+	float HoldDistance = 200.0f;
 };
