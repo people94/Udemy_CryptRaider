@@ -32,6 +32,8 @@ public:
 
 	class UPhysicsHandleComponent* GetPhysicsHandle();
 
+	bool GetGrabbableInReach(FHitResult& OutHitResult) const;
+
 private:
 	UPROPERTY(EditAnywhere)
 	float MaxGarbDistance = 400.0f;
